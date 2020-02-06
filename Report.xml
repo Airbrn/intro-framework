@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="SmokeTests Report" tests="2" errors="0" failures="0" time="0:00:06.040000"><testcase classname="SmokeTests" name="test_100_Start_Browser" time="2.146"><system-out><![CDATA[
+XXXXXXXXX Test 1111 started XXXXXXXXX
+]]></system-out><success type="test_100_Start_Browser"><![CDATA[test_100_Start_Browser (__main__.SmokeTests)]]></success></testcase><testcase classname="SmokeTests" name="test_200_Check_Stop_Button" time="3.888"><system-out><![CDATA[
+XXXXXXXXX Test 222 started XXXXXXXXX
+]]></system-out><success type="test_200_Check_Stop_Button"><![CDATA[test_200_Check_Stop_Button (__main__.SmokeTests)]]></success></testcase><system-out><![CDATA[]]></system-out><system-err><![CDATA[]]></system-err></testsuite>

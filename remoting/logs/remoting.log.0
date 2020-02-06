@@ -1,0 +1,19 @@
+II 06, 2020 7:10:30 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://192.168.0.130:8089/]
+II 06, 2020 7:10:30 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+II 06, 2020 7:10:30 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 192.168.0.130
+  Agent port:    49741
+  Identity:      a1:4d:74:47:dc:01:f5:b9:f2:d0:69:de:ad:db:2d:78
+II 06, 2020 7:10:30 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+II 06, 2020 7:10:30 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 192.168.0.130:49741
+II 06, 2020 7:10:30 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+II 06, 2020 7:10:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: a1:4d:74:47:dc:01:f5:b9:f2:d0:69:de:ad:db:2d:78
+II 06, 2020 7:10:33 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected

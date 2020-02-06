@@ -1,0 +1,85 @@
+II 04, 2020 10:11:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://192.168.0.130:8089/]
+II 04, 2020 10:11:32 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+II 04, 2020 10:11:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 192.168.0.130
+  Agent port:    60261
+  Identity:      a1:4d:74:47:dc:01:f5:b9:f2:d0:69:de:ad:db:2d:78
+II 04, 2020 10:11:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+II 04, 2020 10:11:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 192.168.0.130:60261
+II 04, 2020 10:11:32 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+II 04, 2020 10:11:34 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: a1:4d:74:47:dc:01:f5:b9:f2:d0:69:de:ad:db:2d:78
+II 04, 2020 10:11:35 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+II 04, 2020 10:11:40 PM hudson.remoting.JarCacheSupport$DownloadRunnable run
+WARNING: Failed to resolve a jar 04d04f08030b7ff8337135f2fe2724a7
+java.io.IOException: Failed to write to C:\Project\remoting\jarCache\04\D04F08030B7FF8337135F2FE2724A7.jar
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:150)
+	at hudson.remoting.JarCacheSupport$DownloadRunnable.run(JarCacheSupport.java:110)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Unable to create C:\Project\remoting\jarCache\04\D04F08030B7FF8337135F2FE2724A7.jar from C:\Project\remoting\jarCache\04\D04F08030B7FF8337135F2FE2724A7.jar2086945717057933400tmp
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:130)
+	... 5 more
+
+II 04, 2020 10:11:46 PM hudson.remoting.JarCacheSupport$DownloadRunnable run
+WARNING: Failed to resolve a jar cc00215d08b8695997ae285b94da5e0f
+java.io.IOException: Failed to write to C:\Project\remoting\jarCache\CC\00215D08B8695997AE285B94DA5E0F.jar
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:150)
+	at hudson.remoting.JarCacheSupport$DownloadRunnable.run(JarCacheSupport.java:110)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.FileSystemException: C:\Project\remoting\jarCache\CC\00215D08B8695997AE285B94DA5E0F.jar5365426151870570980tmp: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:147)
+	... 5 more
+
+II 04, 2020 10:11:46 PM hudson.remoting.JarCacheSupport$DownloadRunnable run
+WARNING: Failed to resolve a jar cd4d2a4997ef5c203fbe29a4e0e69f64
+java.io.IOException: Failed to write to C:\Project\remoting\jarCache\CD\4D2A4997EF5C203FBE29A4E0E69F64.jar
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:150)
+	at hudson.remoting.JarCacheSupport$DownloadRunnable.run(JarCacheSupport.java:110)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: Unable to create C:\Project\remoting\jarCache\CD\4D2A4997EF5C203FBE29A4E0E69F64.jar from C:\Project\remoting\jarCache\CD\4D2A4997EF5C203FBE29A4E0E69F64.jar1363831029173362637tmp
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:130)
+	... 5 more
+
+II 04, 2020 10:11:46 PM hudson.remoting.JarCacheSupport$DownloadRunnable run
+WARNING: Failed to resolve a jar ed4fa7991dab026265bed9e25f518d2a
+java.io.IOException: Failed to write to C:\Project\remoting\jarCache\ED\4FA7991DAB026265BED9E25F518D2A.jar
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:150)
+	at hudson.remoting.JarCacheSupport$DownloadRunnable.run(JarCacheSupport.java:110)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at hudson.remoting.AtmostOneThreadExecutor$Worker.run(AtmostOneThreadExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.nio.file.FileSystemException: C:\Project\remoting\jarCache\ED\4FA7991DAB026265BED9E25F518D2A.jar485698026141486058tmp: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at hudson.remoting.FileSystemJarCache.retrieve(FileSystemJarCache.java:147)
+	... 5 more
+
